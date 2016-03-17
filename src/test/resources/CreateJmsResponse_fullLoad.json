@@ -1,0 +1,14 @@
+{
+    "kind": "sequence",
+    "steps": [
+        {
+            "id": "create-jsm-response-1",
+            "kind": "create-jms-response",
+            "name": "toTest1",
+            "value": "value",
+            "jms-destination": "destination",
+            "jms-correlation-id": "correlation",
+            "jms-type": "type"
+        }
+    ]
+}
