@@ -13,7 +13,7 @@ public class CreateJmsResponseJsonLoaderTest extends JsonLoaderTest {
 
 	@Test
 	public void testThis() throws Exception {
-		assertExpectation("classpath:/CreateJmsResponse.json", "com.emarte.regurgitator.extensions.mq.CreateJmsResponse:[com.emarte.regurgitator.core.CreateResponse:['create-jsm-response-1',com.emarte.regurgitator.core.ValueSource:[null,'value'],null],'destination','correlation','type']");
+		assertExpectation("classpath:/CreateJmsResponse.json", "com.emarte.regurgitator.extensions.mq.CreateJmsResponse:[com.emarte.regurgitator.core.CreateResponse:['create-jsm-response-1',com.emarte.regurgitator.core.ValueSource:[null,'value'],null],'message-id','type','destination','correlation','4','expiration','priority','true','reply-to','123456789']");
 	}
 
 	@Test
