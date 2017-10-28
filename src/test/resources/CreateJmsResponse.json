@@ -7,10 +7,10 @@
     "jms-type": "type",
     "jms-destination": "destination",
     "jms-correlation-id": "correlation",
-    "jms-delivery-mode": "4",
-    "jms-expiration": "expiration",
-    "jms-priority": "priority",
-    "jms-redelivered": "true",
+    "jms-delivery-mode": 1,
+    "jms-expiration": 2,
+    "jms-priority": 3,
+    "jms-redelivered": true,
     "jms-reply-to": "reply-to",
-    "jms-timestamp": "123456789"
+    "jms-timestamp": 123456789
 }
