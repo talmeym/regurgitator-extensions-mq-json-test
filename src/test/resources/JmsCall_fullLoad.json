@@ -1,0 +1,10 @@
+{
+  "kind": "sequence",
+  "steps": [
+    {
+      "kind": "jms-call",
+      "id": "jms-call-1",
+      "destination": "queue://something"
+    }
+  ]
+}
