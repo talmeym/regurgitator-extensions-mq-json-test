@@ -4,11 +4,11 @@
  */
 package com.emarte.regurgitator.test;
 
-import com.emarte.regurgitator.core.RegurgitatorException;
 import com.emarte.regurgitator.extensions.mq.JmsCallJsonLoader;
 import org.junit.Test;
 
 import static com.emarte.regurgitator.core.ConfigurationFile.loadFile;
+import static com.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.JmsCall;
 
 public class JmsCallJsonLoaderTest extends JsonLoaderTest {
     public JmsCallJsonLoaderTest() {
@@ -17,11 +17,11 @@ public class JmsCallJsonLoaderTest extends JsonLoaderTest {
 
     @Test
     public void testThis() throws Exception {
-        assertExpectation("classpath:/JmsCall.json", "com.emarte.regurgitator.extensions.mq.JmsCall:['jms-call-1',com.emarte.regurgitator.test.stuff.TestMqMessagingSystem:[],'queue://something']");
+        assertExpectation("classpath:/JmsCall.json", JmsCall);
     }
 
     @Test
-    public void testFullLoad() throws RegurgitatorException {
+    public void testFullLoad() throws Exception {
         loadFile("classpath:/JmsCall.json");
     }
 }
