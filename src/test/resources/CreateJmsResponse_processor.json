@@ -1,0 +1,19 @@
+{
+  "id": "create-jms-response-1",
+  "kind": "create-jms-response",
+  "name": "toTest1",
+  "value": "value",
+  "jms-message-id": "message-id",
+  "jms-type": "type",
+  "jms-destination": "destination",
+  "jms-correlation-id": "correlation-id",
+  "jms-delivery-mode": 1,
+  "jms-expiration": 2,
+  "jms-priority": 3,
+  "jms-redelivered": true,
+  "jms-reply-to": "reply-to",
+  "jms-timestamp": 123456789,
+  "processor": {
+    "kind": "test-value-processor"
+  }
+}
