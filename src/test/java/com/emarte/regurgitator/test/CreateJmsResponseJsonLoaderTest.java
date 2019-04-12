@@ -29,7 +29,7 @@ public class CreateJmsResponseJsonLoaderTest extends JsonLoaderTest {
 
     @Test
     public void testMutipleProcessor() throws Exception {
-        assertExpectation("classpath:/CreateJmsResponse_multipleProcessor.json", CreateJmsResponse_multipleProcessor);
+        assertExpectation("classpath:/CreateJmsResponse_multipleProcessors.json", CreateJmsResponse_multipleProcessors);
     }
 
     @Test

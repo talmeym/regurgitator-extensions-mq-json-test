@@ -13,7 +13,7 @@
   "jms-redelivered": true,
   "jms-reply-to": "reply-to",
   "jms-timestamp": 123456789,
-  "processor": [
+  "processors": [
     {
       "kind": "test-value-processor"
     },
