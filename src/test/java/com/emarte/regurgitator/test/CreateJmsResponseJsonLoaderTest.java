@@ -9,8 +9,6 @@ import org.junit.Test;
 
 import static com.emarte.regurgitator.core.ConfigurationFile.loadFile;
 import static com.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.*;
-import static com.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.CreateJmsResponse;
-import static com.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.CreateJmsResponse_processor;
 
 public class CreateJmsResponseJsonLoaderTest extends JsonLoaderTest {
     public CreateJmsResponseJsonLoaderTest() {
