@@ -2,15 +2,13 @@
  * Copyright (C) 2017 Miles Talmey.
  * Distributed under the MIT License (license terms are at http://opensource.org/licenses/MIT).
  */
-package com.emarte.regurgitator.test;
+package uk.emarte.regurgitator.test;
 
-import com.emarte.regurgitator.extensions.mq.CreateJmsResponseJsonLoader;
 import org.junit.Test;
+import uk.emarte.regurgitator.extensions.mq.CreateJmsResponseJsonLoader;
 
-import static com.emarte.regurgitator.core.ConfigurationFile.loadFile;
-import static com.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.*;
-import static com.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.CreateJmsResponse;
-import static com.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.CreateJmsResponse_processor;
+import static uk.emarte.regurgitator.core.ConfigurationFile.loadFile;
+import static uk.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.*;
 
 public class CreateJmsResponseJsonLoaderTest extends JsonLoaderTest {
     public CreateJmsResponseJsonLoaderTest() {
