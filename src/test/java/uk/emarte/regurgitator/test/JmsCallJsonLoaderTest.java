@@ -2,13 +2,13 @@
  * Copyright (C) 2017 Miles Talmey.
  * Distributed under the MIT License (license terms are at http://opensource.org/licenses/MIT).
  */
-package com.emarte.regurgitator.test;
+package uk.emarte.regurgitator.test;
 
-import com.emarte.regurgitator.extensions.mq.JmsCallJsonLoader;
 import org.junit.Test;
+import uk.emarte.regurgitator.extensions.mq.JmsCallJsonLoader;
 
-import static com.emarte.regurgitator.core.ConfigurationFile.loadFile;
-import static com.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.JmsCall;
+import static uk.emarte.regurgitator.core.ConfigurationFile.loadFile;
+import static uk.emarte.regurgitator.test.MqExtensionsLoaderTestExpectations.JmsCall;
 
 public class JmsCallJsonLoaderTest extends JsonLoaderTest {
     public JmsCallJsonLoaderTest() {
